@@ -27,21 +27,21 @@ ul.navbar {
 
 body.theme-light ul.navbar {
   background-color: var(--light-bg);
-  border-bottom: 5px solid --accent-light;
+  border-bottom: 5px solid var(--accent-light);
 }
 
 body.theme-dark ul.navbar {
   background-color: var(--dark-bg);
-  border-bottom: 5px solid --accent-dark;
+  border-bottom: 5px solid var(--accent-dark);
 }
 
 body.theme-light ul.navbar.scrolled-nav {
-  background-color: 5px solid --accent-light;
+  background-color: 5px solid var(--accent-light);
   border-bottom: 5px solid var(--light-bg);
 }
 
 body.theme-dark ul.navbar.scrolled-nav {
-  background-color: 5px solid --accent-dark;
+  background-color: 5px solid var(--accent-dark);
   border-bottom: 5px solid var(--dark-bg);
 }
 
