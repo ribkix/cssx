@@ -70,6 +70,22 @@ body.theme-dark ul.navbar li.nav-item.active a {
   color: var(--accent-dark);
 }
 
+body.theme-light ul.navbar.scrolled-nav li.nav-item a {
+  color: var(--light-bg);
+}
+
+body.theme-dark ul.navbar.scrolled-nav li.nav-item a {
+  color: var(--dark-bg);
+}
+
+body.theme-light ul.navbar.scrolled-nav li.nav-item.active a {
+  color: var(--light-fg);
+}
+
+body.theme-dark ul.navbar.scrolled-nav li.nav-item.active a {
+  color: var(--light-fg);
+}
+
 ul.nav-left {
   float: left;
 }
