@@ -283,7 +283,7 @@ body.theme-dark .sidebar a {
   color: var(--light-fg);
 }
 
-.main-sidebar {
+div.main-sidebar {
   margin-left: 160px;
   padding: 0px 10px;
 }
