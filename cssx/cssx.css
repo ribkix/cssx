@@ -15,7 +15,6 @@ body.theme-dark {
 }
 
 ul.navbar {
-  list-style-type: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -37,32 +36,37 @@ body.theme-dark ul.navbar {
 }
 
 body.theme-light ul.navbar.scrolled-nav {
-  background-color: 5px solid var(--accent-light);
+  background-color: var(--accent-light);
   border-bottom: 5px solid var(--light-bg-light);
 }
 
 body.theme-dark ul.navbar.scrolled-nav {
-  background-color: 5px solid var(--accent-dark);
+  background-color: var(--accent-dark);
   border-bottom: 5px solid var(--dark-bg-dark);
 }
 
 ul.navbar li.nav-item {
-  margin-top: 25px;
+  list-style-type: none;
+  margin-top: 18px;
 }
 
-body.theme-light ul.navbar li.nav-item {
+ul.navbar li.nav-item a {
+  text-decoration: none;
+}
+
+body.theme-light ul.navbar li.nav-item a {
   color: var(--light-fg);
 }
 
-body.theme-dark ul.navbar li.nav-item {
+body.theme-dark ul.navbar li.nav-item a {
   color: var(--dark-fg);
 }
 
-body.theme-light ul.navbar li.nav-item.active {
+body.theme-light ul.navbar li.nav-item.active a {
   color: var(--accent-light);
 }
 
-body.theme-dark ul.navbar li.nav-item.active {
+body.theme-dark ul.navbar li.nav-item.active a {
   color: var(--accent-dark);
 }
 
