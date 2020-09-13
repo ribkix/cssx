@@ -22,3 +22,33 @@ function body_theme_toggle(){
     body_theme_light();
   }
 }
+
+function body_theme_light_save(){
+  body_theme_light();
+  localStorage.setItem("theme","light");
+}
+
+function body_theme_dark_save(){
+  body_theme_dark();
+  localStorage.setItem("theme","dark");
+}
+
+function body_theme_toggle_save(){
+  if (document.body.classList.contains("theme-light")){
+    body_theme_dark();
+    localStorage.setItem("theme","dark");
+  } else {
+    body_theme_light();
+    localStorage.setItem("theme","light");
+  }
+}
+
+function body_theme_load(){
+  if (localStorage.getItem("theme")){
+    if (localStorage.getItem("theme") == "dark"){
+      body_theme_dark();
+    } else {
+      body_theme_light();
+    }
+  }
+}
