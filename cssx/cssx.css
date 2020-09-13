@@ -178,3 +178,8 @@ body.theme-dark .btn {
 .hover-scale:hover {
   transform: scale(1.2);
 }
+
+.hover-move:hover {
+  position: relative;
+  top: -5px;
+}
