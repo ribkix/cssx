@@ -105,3 +105,50 @@ ul.nav-right li.nav-item a, ul.nav-right li.nav-item img {
 div.main {
   margin-top: 75px;
 }
+
+.btn {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn-bottom-left {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.btn-bottom-right {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.btn-top-left {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.btn-top-right {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.btn-fixed {
+  position: fixed;
+}
+
+body.theme-light .btn {
+  background-color: var(--accent-light);
+  color: var(--light-bg-light);
+}
+
+body.theme-dark .btn {
+  background-color: var(--accent-dark);
+  color: var(--dark-bg-light);
+}
