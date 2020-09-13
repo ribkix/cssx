@@ -2,9 +2,11 @@
   --light-bg: #ededed;
   --light-bg-light: #fff;
   --light-fg: #000;
+  --light-fg-light: #333;
   --dark-bg-light: #303030;
   --dark-bg: #101010;
   --dark-fg: #fff;
+  --dark-fg-dark: #dbdbdb;
   --accent-light: #1c88c8;
   --accent-dark: #1b73ba;
 }
