@@ -13,3 +13,50 @@ body.theme-dark {
   background-color: var(--dark-bg);
   color: var(--dark-fg);
 }
+
+ul.navbar {
+  list-style: none;
+}
+
+body.theme-light ul.navbar {
+  background-color: var(--light-bg);
+  border-bottom: 5px solid linear-gradient(90deg, var(--accent-dark) 0%, var(--accent-light) 100%);
+}
+
+body.theme-dark ul.navbar {
+  background-color: var(--dark-bg);
+  border-bottom: 5px solid linear-gradient(90deg, var(--accent-dark) 0%, var(--accent-light) 100%);
+}
+
+body.theme-light ul.navbar.scrolled-nav {
+  background-color: 5px solid linear-gradient(90deg, var(--accent-dark) 0%, var(--accent-light) 100%);
+  border-bottom: var(--light-bg);
+}
+
+body.theme-dark ul.navbar.scrolled-nav {
+  background-color: 5px solid linear-gradient(90deg, var(--accent-dark) 0%, var(--accent-light) 100%);
+  border-bottom: var(--dark-bg);
+}
+
+body.theme-light ul.navbar li {
+  color: var(--light-fg);
+}
+
+body.theme-dark ul.navbar li {
+  color: var(--dark-fg);
+}
+
+ul.navbar-left {
+  float: left;
+}
+
+ul.navbar-center {
+  top: 50%; 
+  left: 50%; 
+  margin-top: -100px; 
+  margin-left: -100px; 
+}
+
+ul.navbar-right {
+  float: right;
+}
