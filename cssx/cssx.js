@@ -1,21 +1,21 @@
-$(function init_navbar(nav_class) {
+$(function cssx_init_navbar(nav_class) {
   $(document).scroll(function () {
     var $nav = $(nav_class);
     $nav.toggleClass("scrolled-nav", $(this).scrollTop() > $nav.height());
   });
 });
 
-function body_theme_light(){
+function cssx_body_theme_light(){
   document.body.classList.remove("theme-dark");
   document.body.classList.add("theme-light");
 }
 
-function body_theme_dark(){
+function cssx_body_theme_dark(){
   document.body.classList.remove("theme-light");
   document.body.classList.add("theme-dark");
 }
 
-function body_theme_toggle(){
+function cssx_body_theme_toggle(){
   if (document.body.classList.contains("theme-light")){
     body_theme_dark(); 
   } else {
@@ -23,17 +23,17 @@ function body_theme_toggle(){
   }
 }
 
-function body_theme_light_save(){
+function cssx_body_theme_light_save(){
   body_theme_light();
   localStorage.setItem("theme","light");
 }
 
-function body_theme_dark_save(){
+function cssx_body_theme_dark_save(){
   body_theme_dark();
   localStorage.setItem("theme","dark");
 }
 
-function body_theme_toggle_save(){
+function cssx_body_theme_toggle_save(){
   if (document.body.classList.contains("theme-light")){
     body_theme_dark();
     localStorage.setItem("theme","dark");
@@ -43,7 +43,7 @@ function body_theme_toggle_save(){
   }
 }
 
-function body_theme_load(){
+function cssx_body_theme_load(){
   if (localStorage.getItem("theme")){
     if (localStorage.getItem("theme") == "dark"){
       body_theme_dark();
