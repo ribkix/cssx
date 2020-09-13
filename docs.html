@@ -26,6 +26,7 @@
     <div class="sidebar">
       <a href="#getting-started">Getting Started</a>
       <a href="#themes">Themes</a>
+      <a href="#fonts">Fonts</a>
       <a href="#navbar">Navbar</a>
       <a href="#buttons">Buttons</a>
       <a href="#transitions">Transitions</a>
@@ -51,6 +52,19 @@
         <pre><code>&lt;link rel="stylesheet" href="https://cssx.cf/cssx/colors.css"&gt;</code></pre>
         <p>or</p>
         <a href="https://cssx.cf/cssx/colors.css" target="_blank">Download</a>
+      </div>
+      
+      <div id="themes">
+        <h1>Themes</h1>
+        <p>Add the <code>theme-light</code> class for light theme or <code>theme-dark</code> for dark theme to the body.</p>
+        <p>With our javascript, you can manage the theme with the following:</p>
+        <p><code>cssx_body_theme_light()</code> - Set the theme to light</p>
+        <p><code>cssx_body_theme_dark()</code> - Set the theme to dark</p>
+        <p><code>cssx_body_theme_toggle()</code> - Toggle the theme</p>
+        <p><code>cssx_body_theme_light_save()</code> - Set the theme to light and save to local storage</p>
+        <p><code>cssx_body_theme_dark_save()</code> - Set the theme to dark and save to local storage</p>
+        <p><code>cssx_body_theme_toggle_save()</code> - Toggle the theme and save to local storage</p>
+        <p><code>cssx_body_theme_load()</code> - Load saved theme</p>
       </div>
       
       <button class="btn btn-solid btn-bottom-right btn-fixed ease hover-auto-bg-accent no-outline" onclick="cssx_body_theme_toggle_save();">Toggle Theme</button>
