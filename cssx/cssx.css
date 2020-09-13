@@ -101,3 +101,8 @@ ul.nav-left li.nav-item a, ul.nav-left li.nav-item img {
 ul.nav-right li.nav-item a, ul.nav-right li.nav-item img {
   margin-right: 25px;
 }
+
+ul.navbar > li.nav-item {
+    display: inline-block;
+    *display:inline;
+}
