@@ -5,11 +5,11 @@ body {
 }
 
 body.theme-light {
-  background-color: #ededed;
-  color: #000;
+  background-color: var(--light-bg);
+  color: var(--light-fg);
 }
 
 body.theme-dark {
-  background-color: #303030;
-  color: #fff;
+  background-color: var(--dark-bg);
+  color: var(--dark-fg);
 }
