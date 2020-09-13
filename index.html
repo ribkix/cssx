@@ -27,7 +27,15 @@
       <h1>Advanced CSS theme</h1>
       <p>Go to docs to get started.</p>
       
-      <button class="btn btn-solid btn-bottom-left btn-fixed ease hover-auto-bg-accent no-outline" onclick="body_theme_toggle();">Toggle Theme</button>
+      <button class="btn btn-solid btn-bottom-left btn-fixed ease hover-auto-bg-accent no-outline" onclick="cssx_body_theme_toggle();">Toggle Theme</button>
+      
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
   </body>
 </html>
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+    cssx_init_navbar(".navbar");
+    cssx_body_theme_load();
+  });
+</script>
