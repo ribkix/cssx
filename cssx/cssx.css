@@ -34,12 +34,12 @@ body.theme-dark ul.navbar {
 
 body.theme-light ul.navbar.scrolled-nav {
   background-color: 5px solid linear-gradient(90deg, var(--accent-dark) 0%, var(--accent-light) 100%);
-  border-bottom: var(--light-bg);
+  border-bottom: 5px solid var(--light-bg);
 }
 
 body.theme-dark ul.navbar.scrolled-nav {
   background-color: 5px solid linear-gradient(90deg, var(--accent-dark) 0%, var(--accent-light) 100%);
-  border-bottom: var(--dark-bg);
+  border-bottom: 5px solid var(--dark-bg);
 }
 
 body.theme-light ul.navbar li {
@@ -50,17 +50,17 @@ body.theme-dark ul.navbar li {
   color: var(--dark-fg);
 }
 
-ul.navbar-left {
+ul.nav-left {
   float: left;
 }
 
-ul.navbar-center {
+ul.nav-center {
   top: 50%; 
   left: 50%; 
   margin-top: -100px; 
   margin-left: -100px; 
 }
 
-ul.navbar-right {
+ul.nav-right {
   float: right;
 }
