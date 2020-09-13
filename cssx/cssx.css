@@ -226,3 +226,7 @@ body.theme-dark .hover-lighten-fg:hover {
 body.theme-dark .hover-darken-fg:hover {
   color: var(--dark-fg-dark) !important;
 }
+
+.no-outline {
+  outline: none;
+}
