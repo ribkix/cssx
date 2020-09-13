@@ -94,10 +94,10 @@ ul.nav-right {
   float: right;
 }
 
-ul.nav-left li.nav-item {
+ul.nav-left li.nav-item a, ul.nav-left li.nav-item img {
   margin-left: 25px;
 }
 
-ul.nav-right li.nav-item {
+ul.nav-right li.nav-item a, ul.nav-right li.nav-item img {
   margin-right: 25px;
 }
