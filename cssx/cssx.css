@@ -107,12 +107,16 @@ div.main {
 }
 
 .btn {
-  border: none;
-  padding: 15px 32px;
+  cursor: pointer;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.btn-solid {
+  border: none;
+  padding: 15px 32px;
 }
 
 .btn-bottom-left {
