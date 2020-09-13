@@ -179,10 +179,50 @@ body.theme-dark .btn {
   transform: scale(1.2);
 }
 
-.hover-lighten:hover {
+.hover-lighten-bg-accent:hover {
   background-color: var(--accent-light);
 }
 
-.hover-darken:hover {
+.hover-darken-bg-accent:hover {
   background-color: var(--accent-dark);
+}
+
+.hover-lighten-fg-accent:hover {
+  color: var(--accent-light);
+}
+
+.hover-darken-fg-accent:hover {
+  color: var(--accent-dark);
+}
+
+body.theme-light .hover-lighten-bg:hover {
+  background-color: var(--light-bg-light);
+}
+
+body.theme-light .hover-darken-bg:hover {
+  background-color: var(--light-bg);
+}
+
+body.theme-light .hover-lighten-fg:hover {
+  color: var(--light-fg-light);
+}
+
+body.theme-light .hover-darken-fg:hover {
+  color: var(--light-fg);
+}
+
+body.theme-dark .hover-lighten-bg:hover {
+  background-color: var(--dark-bg-light);
+}
+
+body.theme-dark .hover-darken-bg:hover {
+  background-color: var(--dark-bg);
+}
+
+body.theme-dark .hover-lighten-fg:hover {
+  color: var(--dark-fg);
+}
+
+body.theme-dark .hover-darken-fg:hover {
+  color: var(--dark-fg-dark);
 }
