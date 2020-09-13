@@ -32,6 +32,7 @@
       <a href="#transitions">Transitions</a>
       <a href="#hover-effects">Hover effects</a>
       <a href="#force-style">Force style</a>
+      <a href="#sidebar">Sidebar</a>
     </div>
     <div class="main main-sidebar" align="center">
       <div id="getting-started">
@@ -75,6 +76,7 @@
       </div>
       
       <div id="navbar">
+        <h1>Navbar</h1>
         <p>To make a navbar, do the following:</p>
         <pre><code>&lt;ul class="navbar"&gt;
   &lt;ul class="nav-left"&gt;
@@ -92,6 +94,61 @@
         <pre><code>document.addEventListener("DOMContentLoaded", function(){
   cssx_init_navbar(".navbar");
 })</code></pre>
+      </div>
+      
+      <div id="buttons">
+        <h1>Buttons</h1>
+        <p>There are lots of possibilities with buttons. Here is a basic one:</p>
+        <pre><code>&lt;button class="btn btn-solid"&gt;Click me&lt;/button&gt;</code></pre>
+        <p>You can make a button fixed, which means it will stay on the same position on your screen while scrolling, by adding the <code>btn-fixed</code> class.</p>
+        <p>You can put the button in different corners, here are all the corner classes:</p>
+        <p>btn-bottom-left</p>
+        <p>btn-bottom-right</p>
+        <p>btn-top-right</p>
+        <p>btn-top-left</p>
+        <p>CSS X recommends you to add the <code>no-outline</code> force style class to the button. This removes the weird outline after you clicked the button.</p>
+      </div>
+      
+      <div id="transitions">
+        <h1>Transitions</h1>
+        <p>There are the following transition classes:</p>
+        <p><code>ease</code> - fade 0.6 seconds</p>
+      </div>
+      
+      <div id="hover-effects">
+        <h1>Hover Effects</h1>
+        <p>There are the following hover effect classes:</p>
+        <p><code>hover-grayscale</code> - go black and white on hover</p>
+        <p><code>hover-blur</code> - blur on hover</p>
+        <p><code>hover-rotate</code> - rotate 360 degrees on hover</p>
+        <p><code>hover-scale</code> - scale 1.2 times on hover</p>
+        <p>You can lighten/darken the background or foreground with the following hover effect classes:</p>
+        <p><code>hover-lighten-bg-accent</code> - change the background to the light accent color on hover</p>
+        <p><code>hover-darken-bg-accent</code> - change the background to the dark accent color on hover</p>
+        <p><code>hover-lighten-fg-accent</code> - change the foreground to the light accent color on hover</p>
+        <p><code>hover-darken-fg-accent</code> - change the foreground to the dark accent color on hover</p>
+        <p><code>hover-auto-bg-accent</code> - change the background to the correct accent color fitting with the theme on hover</p>
+        <p><code>hover-auto-fg-accent</code> - change the foreground to the correct accent color fitting with the theme on hover</p>
+        <p><code>hover-lighten-bg</code> - change the background to the extra light background color if light or the dark background color on hover</p>
+        <p><code>hover-darken-bg</code> - change the background to the light background color or the extra dark background color on hover</p>
+        <p><code>hover-lighten-fg</code> - change the foreground to the extra light foreground color or the dark foreground color on hover</p>
+        <p><code>hover-darken-fg</code> - change the foreground to the light foreground color or the extra dark foreground color on hover</p>
+      </div>
+      
+      <div id="force-style">
+        <h1>Force Style</h1>
+        <p>Add classes to apply a style without using CSS.</p>
+        <p>There are the following force style classes:</p>
+        <p><code>no-outline</code> - <code>outline: none</code></p>
+      </div>
+      
+      <div id="sidebar">
+        <h1>Sidebar</h1>
+        <p>To add a sidebar, use the following code:</p>
+        <pre><code>&lt;div class="sidebar"&gt;
+  &lt;a href="#getting-started"&gt;Getting Started&lt;/a&gt;
+  &lt;a href="#cool-stuff"&gt;Cool Stuff&lt;/a&gt;
+&lt;/div&gt;</code></pre>
       </div>
       
       <button class="btn btn-solid btn-bottom-right btn-fixed ease hover-auto-bg-accent no-outline" onclick="cssx_body_theme_toggle_save();">Toggle Theme</button>
