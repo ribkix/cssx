@@ -31,7 +31,7 @@ body.theme-light ul.navbar {
 }
 
 body.theme-dark ul.navbar {
-  background-color: var(--dark-bg-dark);
+  background-color: var(--dark-bg-light);
   border-bottom: 5px solid var(--accent-dark);
 }
 
