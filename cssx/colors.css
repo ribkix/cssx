@@ -1,7 +1,9 @@
 :root {
   --light-bg: #ededed;
+  --light-bg-light: #fff;
   --light-fg: #000;
-  --dark-bg: #303030;
+  --dark-bg-light: #303030;
+  --dark-bg: #101010;
   --dark-fg: #fff;
   --accent-light: #1c88c8;
   --accent-dark: #1b73ba;
