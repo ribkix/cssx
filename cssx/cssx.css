@@ -16,6 +16,10 @@ body.theme-dark {
 
 ul.navbar {
   list-style: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 body.theme-light ul.navbar {
