@@ -79,22 +79,15 @@ body.theme-dark ul.navbar.scrolled-nav li.nav-item a {
 }
 
 body.theme-light ul.navbar.scrolled-nav li.nav-item.active a {
-  color: var(--light-fg);
+  color: var(--light-bg-light);
 }
 
 body.theme-dark ul.navbar.scrolled-nav li.nav-item.active a {
-  color: var(--light-fg);
+  color: var(--dark-bg-light);
 }
 
 ul.nav-left {
   float: left;
-}
-
-ul.nav-center {
-  top: 50%; 
-  left: 50%; 
-  margin-top: -100px; 
-  margin-left: -100px; 
 }
 
 ul.nav-right {
@@ -103,11 +96,6 @@ ul.nav-right {
 
 ul.nav-left li.nav-item {
   margin-left: 25px;
-}
-
-ul.nav-center li.nav-item {
-  margin-left: 12.5px;
-  margin-right: 12.5px;
 }
 
 ul.nav-right li.nav-item {
