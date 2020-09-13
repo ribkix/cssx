@@ -15,7 +15,7 @@ body.theme-dark {
 }
 
 ul.navbar {
-  list-style: none;
+  list-style-type: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -27,21 +27,21 @@ ul.navbar {
 
 body.theme-light ul.navbar {
   background-color: var(--light-bg);
-  border-bottom: 5px solid linear-gradient(90deg, var(--accent-dark) 0%, var(--accent-light) 100%);
+  border-bottom: 5px solid --accent-light;
 }
 
 body.theme-dark ul.navbar {
   background-color: var(--dark-bg);
-  border-bottom: 5px solid linear-gradient(90deg, var(--accent-dark) 0%, var(--accent-light) 100%);
+  border-bottom: 5px solid --accent-dark;
 }
 
 body.theme-light ul.navbar.scrolled-nav {
-  background-color: 5px solid linear-gradient(90deg, var(--accent-dark) 0%, var(--accent-light) 100%);
+  background-color: 5px solid --accent-light;
   border-bottom: 5px solid var(--light-bg);
 }
 
 body.theme-dark ul.navbar.scrolled-nav {
-  background-color: 5px solid linear-gradient(90deg, var(--accent-dark) 0%, var(--accent-light) 100%);
+  background-color: 5px solid --accent-dark;
   border-bottom: 5px solid var(--dark-bg);
 }
 
