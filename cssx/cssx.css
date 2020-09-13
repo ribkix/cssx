@@ -23,34 +23,47 @@ ul.navbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  transition: 0.6s ease;
 }
 
 body.theme-light ul.navbar {
-  background-color: var(--light-bg);
+  background-color: var(--light-bg-light);
   border-bottom: 5px solid var(--accent-light);
 }
 
 body.theme-dark ul.navbar {
-  background-color: var(--dark-bg);
+  background-color: var(--dark-bg-dark);
   border-bottom: 5px solid var(--accent-dark);
 }
 
 body.theme-light ul.navbar.scrolled-nav {
   background-color: 5px solid var(--accent-light);
-  border-bottom: 5px solid var(--light-bg);
+  border-bottom: 5px solid var(--light-bg-light);
 }
 
 body.theme-dark ul.navbar.scrolled-nav {
   background-color: 5px solid var(--accent-dark);
-  border-bottom: 5px solid var(--dark-bg);
+  border-bottom: 5px solid var(--dark-bg-dark);
 }
 
-body.theme-light ul.navbar li {
+ul.navbar li.nav-item {
+  margin-top: 25px;
+}
+
+body.theme-light ul.navbar li.nav-item {
   color: var(--light-fg);
 }
 
-body.theme-dark ul.navbar li {
+body.theme-dark ul.navbar li.nav-item {
   color: var(--dark-fg);
+}
+
+body.theme-light ul.navbar li.nav-item.active {
+  color: var(--accent-light);
+}
+
+body.theme-dark ul.navbar li.nav-item.active {
+  color: var(--accent-dark);
 }
 
 ul.nav-left {
@@ -66,4 +79,17 @@ ul.nav-center {
 
 ul.nav-right {
   float: right;
+}
+
+ul.nav-left li.nav-item {
+  margin-left: 25px;
+}
+
+ul.nav-center li.nav-item {
+  margin-left: 12.5px;
+  margin-right: 12.5px;
+}
+
+ul.nav-right li.nav-item {
+  margin-right: 25px;
 }
