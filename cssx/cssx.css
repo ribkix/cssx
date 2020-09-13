@@ -248,3 +248,42 @@ body.theme-dark .hover-darken-fg:hover {
 .no-outline {
   outline: none;
 }
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+body.theme-light .sidebar {
+  background-color: var(--dark-bg);
+}
+
+body.theme-dark .sidebar {
+  background-color: var(--light-bg);
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+
+body.theme-light .sidebar a {
+  color: var(--dark-fg);
+}
+
+body.theme-dark .sidebar a {
+  color: var(--light-fg);
+}
+
+.main-sidebar {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
