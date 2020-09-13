@@ -16,12 +16,13 @@
   <body class="theme-light font-roboto">
     <ul class="navbar">
       <ul class="nav-right">
-        <li class="nav-item"><a href=".."><img class="ease hover-scale" src="../img/cssx.png" width="50px"></a></li>
         <li class="nav-item active"><a href="../docs">Docs</a></li>
         <li class="nav-item"><a href="..">Home</a></li>
       </ul>
     </ul>
     <div class="sidebar">
+      <a href="#getting-started">Getting Started</a>
+      <a href="#themes">Themes</a>
       <a href="#navbar">Navbar</a>
       <a href="#buttons">Buttons</a>
       <a href="#transitions">Transitions</a>
@@ -29,6 +30,21 @@
       <a href="#force-style">Force style</a>
     </div>
     <div class="main main-sidebar" align="center">
+      <div id="getting-started">
+        <h1>Getting Started</h1>
+        <p>To get started, import the CSS and Javascript.</p>
+        <h3>CDN</h3>
+        <p>You can use our hosted files, by using the following code:</p>
+        <pre><code>&lt;link rel="stylesheet" href="https://cssx.cf/cssx/cssx.css"&gt;
+&lt;script src="https://cssx.cf/cssx/jquery.js"&gt;&lt;/script&gt;
+&lt;script src="https://cssx.cf/cssx/cssx.js"&gt;&lt;/script&gt;</code></pre>
+        <h3>Download</h3>
+        <p>CSS: <a href="https://cssx.cf/cssx/cssx.css" download>Download</a></p>
+        <p>Jquery: <a href="https://cssx.cf/cssx/jquery.js" download>Download</a></p>
+        <p>Javascript: <a href="https://cssx.cf/cssx/cssx.js" download>Download</a></p>
+        <p>Warning: Import the Jquery BEFORE the Javascript!</p>
+      </div>
+      
       <button class="btn btn-solid btn-bottom-right btn-fixed ease hover-auto-bg-accent no-outline" onclick="cssx_body_theme_toggle_save();">Toggle Theme</button>
     </div>
   </body>
