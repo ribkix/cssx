@@ -178,3 +178,11 @@ body.theme-dark .btn {
 .hover-scale:hover {
   transform: scale(1.2);
 }
+
+.hover-lighten:hover {
+  background-color: var(--accent-light);
+}
+
+.hover-darken:hover {
+  background-color: var(--accent-dark);
+}
