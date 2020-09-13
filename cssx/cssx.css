@@ -80,10 +80,12 @@ body.theme-dark ul.navbar.scrolled-nav li.nav-item a {
 
 body.theme-light ul.navbar.scrolled-nav li.nav-item.active a {
   color: var(--light-bg-light);
+  text-decoration: underline;
 }
 
 body.theme-dark ul.navbar.scrolled-nav li.nav-item.active a {
   color: var(--dark-bg-light);
+  text-decoration: underline;
 }
 
 ul.nav-left, ul.nav-left li.nav-item {
