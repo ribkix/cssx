@@ -180,49 +180,49 @@ body.theme-dark .btn {
 }
 
 .hover-lighten-bg-accent:hover {
-  background-color: var(--accent-light);
+  background-color: var(--accent-light) !important;
 }
 
 .hover-darken-bg-accent:hover {
-  background-color: var(--accent-dark);
+  background-color: var(--accent-dark) !important;
 }
 
 .hover-lighten-fg-accent:hover {
-  color: var(--accent-light);
+  color: var(--accent-light) !important;
 }
 
 .hover-darken-fg-accent:hover {
-  color: var(--accent-dark);
+  color: var(--accent-dark) !important;
 }
 
 body.theme-light .hover-lighten-bg:hover {
-  background-color: var(--light-bg-light);
+  background-color: var(--light-bg-light) !important;
 }
 
 body.theme-light .hover-darken-bg:hover {
-  background-color: var(--light-bg);
+  background-color: var(--light-bg) !important;
 }
 
 body.theme-light .hover-lighten-fg:hover {
-  color: var(--light-fg-light);
+  color: var(--light-fg-light) !important;
 }
 
 body.theme-light .hover-darken-fg:hover {
-  color: var(--light-fg);
+  color: var(--light-fg) !important;
 }
 
 body.theme-dark .hover-lighten-bg:hover {
-  background-color: var(--dark-bg-light);
+  background-color: var(--dark-bg-light) !important;
 }
 
 body.theme-dark .hover-darken-bg:hover {
-  background-color: var(--dark-bg);
+  background-color: var(--dark-bg) !important;
 }
 
 body.theme-dark .hover-lighten-fg:hover {
-  color: var(--dark-fg);
+  color: var(--dark-fg) !important;
 }
 
 body.theme-dark .hover-darken-fg:hover {
-  color: var(--dark-fg-dark);
+  color: var(--dark-fg-dark) !important;
 }
