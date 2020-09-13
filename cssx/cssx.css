@@ -86,11 +86,11 @@ body.theme-dark ul.navbar.scrolled-nav li.nav-item.active a {
   color: var(--dark-bg-light);
 }
 
-ul.nav-left li.nav-item {
+ul.nav-left, ul.nav-left li.nav-item {
   float: left;
 }
 
-ul.nav-right li.nav-item {
+ul.nav-right, ul.nav-right li.nav-item {
   float: right;
 }
 
