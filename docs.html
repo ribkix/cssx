@@ -53,6 +53,11 @@
         <pre><code>&lt;link rel="stylesheet" href="https://cssx.cf/cssx/colors.css"&gt;</code></pre>
         <p>or</p>
         <a href="https://cssx.cf/cssx/colors.css" target="_blank">Download</a>
+        <h3>Start code</h3>
+        <p>Add the following to the body:</p>
+        <pre><code>&lt;div class="main"&gt;
+  
+&lt;/div&gt;</code></pre>
       </div>
       
       <div id="themes">
@@ -77,13 +82,14 @@
       
       <div id="navbar">
         <h1>Navbar</h1>
-        <p>To make a navbar, do the following:</p>
+        <iframe src="http://cssx.cf/previews/navbar" style="border:0px #ffffff none;" name="myiFrame" scrolling="yes" frameborder="0" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
+        <p>To make a navbar, do the following above the main div:</p>
         <pre><code>&lt;ul class="navbar"&gt;
   &lt;ul class="nav-left"&gt;
-    &lt;a href=".."&gt;&lt;img src"https://cssx.cf" width="50px"&gt;&lt;/a&gt;
+    &lt;a href=".."&gt;&lt;img src="https://cssx.cf/img/cssx.png" width="50px"&gt;&lt;/a&gt;
   &lt;/ul&gt;
   &lt;ul class="nav-right"&gt;
-    &lt;li class="nav-item active"&gt;&lt;a href="../about"&gt;About&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav-item"&gt;&lt;a href="../about"&gt;About&lt;/a&gt;&lt;/li&gt;
     &lt;li class="nav-item active"&gt;&lt;a href=".."&gt;Home&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/ul&gt;</code></pre>
@@ -144,11 +150,12 @@
       
       <div id="sidebar">
         <h1>Sidebar</h1>
-        <p>To add a sidebar, use the following code:</p>
+        <p>To add a sidebar, use the following code above the main div:</p>
         <pre><code>&lt;div class="sidebar"&gt;
   &lt;a href="#getting-started"&gt;Getting Started&lt;/a&gt;
   &lt;a href="#cool-stuff"&gt;Cool Stuff&lt;/a&gt;
 &lt;/div&gt;</code></pre>
+        <p>Now add the <code>main-sidebar</code> class to the main div. DO NOT REMOVE THE <code>main</code> CLASS!</p>
       </div>
       
       <button class="btn btn-solid btn-bottom-right btn-fixed ease hover-auto-bg-accent no-outline" onclick="cssx_body_theme_toggle_save();">Toggle Theme</button>
