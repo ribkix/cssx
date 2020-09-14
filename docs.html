@@ -33,6 +33,7 @@
       <a href="#hover-effects">Hover effects</a>
       <a href="#force-style">Force style</a>
       <a href="#sidebar">Sidebar</a>
+      <a href="#columns">Columns</a>
     </div>
     <div class="main main-sidebar" align="center">
       <div id="getting-started">
@@ -177,6 +178,62 @@
         <p>Now add the <code>main-sidebar</code> class to the main div. DO NOT REMOVE THE <code>main</code> CLASS!</p>
       </div>
       
+      <div id="columns">
+        <p>You can use our grid powered by <a href="https://getskeleton.com" target="_blank">Skeleton</a> by using the following code:</p>
+        <pre><code>&lt;div class="container"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="one column"&gt;One&lt;/div&gt;
+    &lt;div class="eleven columns"&gt;Eleven&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        <div class="container example-columns">
+          <div class="row">
+            <div class="one column">One</div>
+            <div class="eleven columns">Eleven</div>
+          </div>
+          <div class="row">
+            <div class="two columns">Two</div>
+            <div class="ten columns">Ten</div>
+          </div>
+          <div class="row">
+            <div class="three columns">Three</div>
+            <div class="nine columns">Nine</div>
+          </div>
+          <div class="row">
+            <div class="four columns">Four</div>
+            <div class="eight columns">Eight</div>
+          </div>
+          <div class="row">
+            <div class="five columns">Five</div>
+            <div class="seven columns">Seven</div>
+          </div>
+          <div class="row">
+            <div class="six columns">Six</div>
+            <div class="six columns">Six</div>
+          </div>
+          <div class="row">
+            <div class="seven columns">Seven</div>
+            <div class="five columns">Five</div>
+          </div>
+          <div class="row">
+            <div class="eight columns">Eight</div>
+            <div class="four  columns">Four</div>
+          </div>
+          <div class="row">
+            <div class="nine columns">Nine</div>
+            <div class="three columns">Three</div>
+          </div>
+          <div class="row">
+            <div class="ten columns">Ten</div>
+            <div class="two columns">Two</div>
+          </div>
+          <div class="row">
+            <div class="eleven columns">Eleven</div>
+            <div class="one column">One</div>
+          </div>
+        </div>
+      </div>
+      
       <button class="btn btn-solid btn-bottom-right btn-fixed ease hover-auto-bg-accent no-outline" onclick="cssx_body_theme_toggle_save();">Toggle Theme</button>
     </div>
   </body>
@@ -187,3 +244,9 @@
     cssx_body_theme_load();
   });
 </script>
+<style>
+  .example-columns .row .columns {
+    background-color: var(--accent-light);
+    color: #fff;
+  }
+</style>
