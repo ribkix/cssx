@@ -14,6 +14,15 @@ body.theme-dark {
   color: var(--dark-fg);
 }
 
+body.theme-light code {
+  background-color: var(--light-bg-light);
+}
+
+
+body.theme-dark code {
+  background-color: var(--dark-bg-light);
+}
+
 ul.navbar {
   position: fixed;
   top: 0;
